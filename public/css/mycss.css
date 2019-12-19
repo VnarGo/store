@@ -1,0 +1,59 @@
+#image{
+    width: 100px;
+    height: 100px;
+    border-radius: 25%;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 225px 225px 225px 225px;
+    grid-template-rows: 350px  350px  350px  350px;
+    background-color: white;
+    padding: 10px;
+}
+#brands{
+    grid-template-rows: 200px 200px 200px 200px 200px;
+}
+
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.grid-item:hover{
+    transition: border 1s;
+    border: 1px solid grey;
+
+}
+
+
+#image1{
+    width:150px;
+    height: 150px;
+    float: left;
+    border-radius: 30%;
+    margin-right: 25px;
+}
+
+#productInfo{
+    font-size: 14px ;
+    text-align: left;
+}
+
+.myul{
+    list-style-type: none;
+}
+
+.myul li{
+    padding-left: -2px;
+    text-indent: -2em;
+}
+
+.myul a{
+    color: black;
+    font-size: 20px;
+}
